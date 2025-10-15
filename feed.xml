@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>v12</title>
+    <link href="https://massonaguiarnathan.github.io/cacambapublii/feed.xml" rel="self" />
+    <link href="https://massonaguiarnathan.github.io/cacambapublii" />
+    <updated>2025-10-14T21:52:54-03:00</updated>
+    <author>
+        <name>v12</name>
+    </author>
+    <id>https://massonaguiarnathan.github.io/cacambapublii</id>
+
+    <entry>
+        <title>dfdf</title>
+        <author>
+            <name>v12</name>
+        </author>
+        <link href="https://massonaguiarnathan.github.io/cacambapublii/dfdf.html"/>
+        <id>https://massonaguiarnathan.github.io/cacambapublii/dfdf.html</id>
+            <category term="tagnathan"/>
+
+        <updated>2025-10-14T21:52:54-03:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+</feed>

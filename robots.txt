@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://massonaguiarnathan.github.io/cacambapublii/sitemap.xml
