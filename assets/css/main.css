@@ -273,6 +273,18 @@ body.menu-open {
     border-color: var(--color-secondary);
 }
 
+.btn-neighborhoods {
+    background-color: #f5a623;
+    color: var(--color-white);
+    border-color: #f5a623;
+}
+
+.btn-neighborhoods:hover {
+    background-color: #d18912;
+    color: var(--color-white);
+    border-color: #d18912;
+}
+
 .btn-secondary {
     background-color: var(--color-primary);
     color: var(--color-white);
@@ -290,8 +302,18 @@ body.menu-open {
     color: var(--color-white);
 }
 
+.btn-whatsapp:hover {
+    background-color: #16b350;
+    color: var(--color-white);
+}
+
 .btn-phone {
     background-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+.btn-phone:hover {
+    background-color: var(--color-primary-dark);
     color: var(--color-white);
 }
 
@@ -587,7 +609,6 @@ body.menu-open {
 .footer-container {
     max-width: var(--container-width);
     margin: 0 auto;
-    padding: 0 var(--spacing-md);
 }
 
 .footer-grid {
@@ -652,7 +673,7 @@ body.menu-open {
 }
 
 .footer-contact a {
-    color: var(--color-primary);
+    color: #ffffff;
 }
 
 .footer-bottom {

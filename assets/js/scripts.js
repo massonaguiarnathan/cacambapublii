@@ -1,10 +1,33 @@
 // Mobile menu toggle
-document.addEventListener('DOMContentLoaded', function() {
-    const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
-    const mainNav = document.querySelector('.main-nav');
+(function() {
+    'use strict';
     
-    if (mobileMenuToggle && mainNav) {
-        mobileMenuToggle.addEventListener('click', function() {
+    // Wait for DOM to be ready
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initMobileMenu);
+    } else {
+        initMobileMenu();
+    }
+    
+    function initMobileMenu() {
+        const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+        const mainNav = document.querySelector('.main-nav');
+        
+        console.log('Mobile menu toggle:', mobileMenuToggle);
+        console.log('Main nav:', mainNav);
+        
+        if (!mobileMenuToggle || !mainNav) {
+            console.warn('Mobile menu elements not found');
+            return;
+        }
+        
+        // Toggle menu on button click
+        mobileMenuToggle.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            
+            console.log('Menu toggle clicked');
+            
             // Toggle active class on button
             this.classList.toggle('active');
             
@@ -13,6 +36,8 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Toggle body scroll lock
             document.body.classList.toggle('menu-open');
+            
+            console.log('Menu is now:', mainNav.classList.contains('active') ? 'open' : 'closed');
         });
         
         // Close menu when clicking outside
@@ -37,5 +62,5 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         });
     }
-});
+})();
 
