@@ -1,54 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <title>v12</title>
+    <title>v14</title>
     <link href="https://massonaguiarnathan.github.io/cacambapublii/feed.xml" rel="self" />
     <link href="https://massonaguiarnathan.github.io/cacambapublii" />
-    <updated>2025-10-14T22:06:16-03:00</updated>
+    <updated>1969-12-31T21:00:00-03:00</updated>
     <author>
-        <name>v12</name>
+        <name>v14</name>
     </author>
     <id>https://massonaguiarnathan.github.io/cacambapublii</id>
 
-    <entry>
-        <title>Vem pra tu ver só vem (copy)</title>
-        <author>
-            <name>v12</name>
-        </author>
-        <link href="https://massonaguiarnathan.github.io/cacambapublii/dfdf-3.html"/>
-        <id>https://massonaguiarnathan.github.io/cacambapublii/dfdf-3.html</id>
-        <media:content url="https://massonaguiarnathan.github.io/cacambapublii/media/posts/3/O-que-pode-ser-coletado-por-cacambas-de-entulho.jpg" medium="image" />
-            <category term="tagnathan"/>
-
-        <updated>2025-10-14T22:06:16-03:00</updated>
-            <summary></summary>
-        <content></content>
-    </entry>
-    <entry>
-        <title>Vem pra tu ver só vem (copy)</title>
-        <author>
-            <name>v12</name>
-        </author>
-        <link href="https://massonaguiarnathan.github.io/cacambapublii/dfdf-2.html"/>
-        <id>https://massonaguiarnathan.github.io/cacambapublii/dfdf-2.html</id>
-        <media:content url="https://massonaguiarnathan.github.io/cacambapublii/media/posts/2/O-que-pode-ser-coletado-por-cacambas-de-entulho.jpg" medium="image" />
-            <category term="tagnathan"/>
-
-        <updated>2025-10-14T22:06:12-03:00</updated>
-            <summary></summary>
-        <content></content>
-    </entry>
-    <entry>
-        <title>Vem pra tu ver só vem</title>
-        <author>
-            <name>v12</name>
-        </author>
-        <link href="https://massonaguiarnathan.github.io/cacambapublii/dfdf.html"/>
-        <id>https://massonaguiarnathan.github.io/cacambapublii/dfdf.html</id>
-        <media:content url="https://massonaguiarnathan.github.io/cacambapublii/media/posts/1/O-que-pode-ser-coletado-por-cacambas-de-entulho.jpg" medium="image" />
-            <category term="tagnathan"/>
-
-        <updated>2025-10-14T21:52:54-03:00</updated>
-            <summary></summary>
-        <content></content>
-    </entry>
 </feed>
